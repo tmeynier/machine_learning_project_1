@@ -1,0 +1,6 @@
+Ensemble method using the following models: ['../../output/resnet_causal_mitbih.h5', '../../output/rnn_bi_mitbih.h5', '../../output/rnn_mitbih.h5']
+Ensemble method used: softmaxResult metrics:
+Accuracy: 0.986936
+Precision: 0.986688
+Recall: 0.986936
+F1 score: 0.986399

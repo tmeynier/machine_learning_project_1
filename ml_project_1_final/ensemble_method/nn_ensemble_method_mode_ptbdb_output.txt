@@ -1,0 +1,7 @@
+Ensemble method using the following models: ['../../output/resnet_ptbdb_causal.h5', '../../output/rnn_bi_ptbdb.h5', '../../output/rnn_ptbdb.h5']
+Ensemble method used: mode
+Result metrics:
+Accuracy: 0.950591
+Precision: 0.971118
+Recall: 0.960118
+F1 score: 0.965587

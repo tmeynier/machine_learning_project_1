@@ -1,0 +1,76 @@
+Sender: LSF System <lsfadmin@lo-a2-020>
+Subject: Job 5270114: <python svm_187_features_ptb.py> in cluster <leonhard> Done
+
+Job <python svm_187_features_ptb.py> was submitted from host <lo-login-01> by user <mchevalley> in cluster <leonhard> at Thu Mar 19 23:45:22 2020
+Job was executed on host(s) <8*lo-a2-020>, in queue <normal.4h>, as user <mchevalley> in cluster <leonhard> at Thu Mar 19 23:45:42 2020
+</cluster/home/mchevalley> was used as the home directory.
+</cluster/home/mchevalley/ml_project1/svm> was used as the working directory.
+Started at Thu Mar 19 23:45:42 2020
+Terminated at Thu Mar 19 23:46:43 2020
+Results reported at Thu Mar 19 23:46:43 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python svm_187_features_ptb.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   146.00 sec.
+    Max Memory :                                 2805 MB
+    Average Memory :                             934.25 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               5387.00 MB
+    Max Swap :                                   -
+    Max Processes :                              20
+    Max Threads :                                24
+    Run time :                                   64 sec.
+    Turnaround time :                            81 sec.
+
+The output (if any) follows:
+
+2020-03-19 23:45:52.341889: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:45:52.348229: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:45:52.348261: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+Using TensorFlow backend.
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 16 concurrent workers.
+2020-03-19 23:46:01.808455: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:46:01.808455: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:46:01.808483: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:46:01.808492: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:46:01.808529: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:46:01.808882: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:46:01.808887: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:46:01.808903: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-03-19 23:46:01.808906: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-03-19 23:46:01.808906: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:46:01.808917: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:46:01.808926: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-03-19 23:46:01.808926: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /cluster/apps/lsf/10.1/linux3.10-glibc2.17-x86_64/lib:/cluster/apps/gcc-4.8.5/hdf5-1.10.1-z22q436tpg5j5mrbfk4xex6k2dg73tfo/lib:/cluster/apps/gcc-4.8.5/libpng-1.6.27-d6quyddan2eotsexesxufytusf27xxgz/lib:/cluster/apps/gcc-4.8.5/jpeg-9b-psjvucpx7xwkflb3meatuo6ugdtapkex/lib:/cluster/apps/gcc-4.8.5/nccl-2.4.8-1-xpkpjc3dfz3c5knwctwl5vcut2ahfrwe/lib:/cluster/apps/gcc-4.8.5/cudnn-7.6.4-3ddmfyxxx2gkzhrra44ir3h3ls6yeuwe/lib64:/cluster/apps/gcc-4.8.5/cuda-10.1.243-7tq43deb5x4dbs4oe427w4zszno23q6r/lib64:/cluster/apps/gcc-4.8.5/openblas-0.2.19-w25ydbabttcfa6g76gejjkthcm3xcuv3/lib:/cluster/apps/python/3.7.4/x86_64/lib64
+2020-03-19 23:46:01.808936: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-03-19 23:46:01.808945: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+[Parallel(n_jobs=-1)]: Done   5 out of   5 | elapsed:   25.6s finished
+{'clas__C': 2, 'clas__gamma': 0.01}
+{'mean_fit_time': array([13.25605001]), 'std_fit_time': array([0.20658957]), 'mean_score_time': array([1.92316828]), 'std_score_time': array([0.02464458]), 'param_clas__C': masked_array(data=[2],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_clas__gamma': masked_array(data=[0.01],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'clas__C': 2, 'clas__gamma': 0.01}], 'split0_test_score': array([0.93473594]), 'split1_test_score': array([0.93943299]), 'split2_test_score': array([0.9282646]), 'split3_test_score': array([0.93599656]), 'split4_test_score': array([0.93814433]), 'mean_test_score': array([0.93531489]), 'std_test_score': array([0.00388512]), 'rank_test_score': array([1], dtype=int32)}
+Accuracy: 0.940227
+Precision: 0.979125
+Recall: 0.937203
+F1 score: 0.957705
+Test auroc score : 0.942643359258767 
+Test auprc score : 0.9629840336037621 
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
+Using TensorFlow backend.
