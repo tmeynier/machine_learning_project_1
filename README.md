@@ -1,4 +1,4 @@
 # machine_learning_project_1
 A Machine Learning for Health Care project. It performs a classification of ECG data into normal and abnormal signals (Time Series Analysis)
 
-See the pdf report in the repository for any more detail
+See the pdf report in the repository for any more details.
